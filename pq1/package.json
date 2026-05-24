@@ -1,0 +1,33 @@
+{
+  "name": "titan-grid",
+  "version": "1.0.0",
+  "description": "Titan-Grid: Maximum-Density Isometric RTS Web Game Engine v1.0.0",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js",
+    "test": "node test/test.js",
+    "build": "echo \"Build complete\""
+  },
+  "keywords": [
+    "game",
+    "rts",
+    "isometric",
+    "webgl",
+    "multiplayer",
+    "strategy"
+  ],
+  "author": "abdurrahmanatif03-pixel",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "ws": "^8.14.2",
+    "uuid": "^9.0.1",
+    "cors": "^2.8.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
+}
